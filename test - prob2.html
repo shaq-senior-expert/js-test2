@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Weather Tracker</title>
+    <script src="script.js"></script>
+</head>
+  <body>
+    <h2>Weather Tracker</h2>
+    <form>
+      <label for="week">Select Week:</label>
+      <select id="week">
+        <option value="1">Week 1</option>
+        <option value="2">Week 2</option>
+        <option value="3">Week 3</option>
+        <option value="4">Week 4</option>
+      </select>
+      <button type="button" onclick="getWeatherData()">Start Tracking</button>
+      <button type="button" onclick="generateXML()">Generate XML</button>
+    </form>
+    <div id="table-container"></div>
+  </body>
+</html>
+
