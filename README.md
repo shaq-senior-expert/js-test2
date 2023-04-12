@@ -6,8 +6,10 @@
 The HTML file that contains the form and table elements.
 
 The dropdown should contain all the weeks of the current month.
+
 The button should be labeled "Start Tracking" and positioned in the middle of the screen.
 When the button is clicked, it should trigger the `getWeatherData()` JavaScript function that sends an API call to retrieve weather data for the selected week.
+
 The button should be labeled "Generate XML" and positioned in the right of the "Start Tracking" button.
 When the button is clicked, it should trigger the `generateXML()` JavaScript function that generates a XML file with the table data.
 
